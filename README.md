@@ -14,12 +14,13 @@ devtools::install_github('shadowdeng1994/TarCA')
 library("TarCA")
 ```
 ### Estimate Np with cell phylogenetic tree
-Load exemplar dataset for Np_estimator.
+Load exemplar dataset for Np_estimator. tmp.tree
 ```
 load(system.file("Exemplar","Exemplar_TCA.RData",package = "TarCA"))
 tmp.tree <- ExemplarData_1$Tree
 tmp.ann <- ExemplarData_1$Ann
 ```
+
 ```
 tmp.res <- Np_Estimator(
   Tree = ExemplarData_1$Tree,
