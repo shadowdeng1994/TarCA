@@ -120,7 +120,7 @@ tmp.result <- LEU_Estimator(
 
 ## Contributing
 ### Contributors
-Shanjun Deng, shadowdeng1994@163.com.
+Shanjun Deng, shadowdeng1994@gmail.com.
 
 ## Citations
 When using TarCA please cite:
