@@ -1,6 +1,6 @@
 # TarCA
 
-The method, termed as targeting coalescent analysis (TCA), computes for all cells of a tissue the average coalescent rate at the monophyletic clades of the target tissue, the inverse of which then measures the progenitor number of the tissue. Any predefined population could be investigated with TarCA, independent of pre-set markers.
+The method, termed as targeting coalescent analysis (TCA), computes for all cells of a tissue the average coalescent rate at the monophyletic clades of the target tissue, the inverse of which then measures the progenitor number of the tissue. Any predefined population could be investigated with TCA, independent of pre-set markers.
 
 <p align="center">
   <img src="https://github.com/shadowdeng1994/TarCA/blob/main/inst/CoalescentTheory.png" width=65% height=65%>
