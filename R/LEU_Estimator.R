@@ -76,7 +76,7 @@ LEU_Estimator <- function(PathToData=NULL,Tree=NULL,Ann=NULL,Fileout=NULL,Return
   tmp.CladeSizeDetial <- fun.GetCladeSizeDetail(tmp.pureNode2organ)
 
   #### Get Np
-  #message("**** 8. Get Np file.")
+  message("**** 8. Get Np file.")
   tmp.EffN <- left_join(tmp.CladeSizeDetial,fun.GetEffN(tmp.pureNode2organ),by="TipAnn")
 
   tmp.out <- list()
