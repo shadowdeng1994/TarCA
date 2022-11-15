@@ -1,0 +1,29 @@
+Package: TarCA
+Type: Package
+Title: Targeting coalescent analysis
+Version: 0.1.0
+Authors@R:
+    person(
+        given="Shanjun",
+        family="Deng",
+        role=c("aut","cre","ctb"),
+        email="shadowdeng1994@163.com"
+    )
+Description: The method, termed as targeting coalescent analysis (TCA), computes for all cells of a tissue the average coalescent rate at the monophyletic clades of the target tissue, the inverse of which then measures the progenitor number of the tissue.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.1
+Depends: 
+    R (>= 3.5.0),
+    dplyr,
+    tidyr
+Imports: 
+    ape,
+    castor,
+    ggplot2,
+    ggtree,
+    phytools,
+    stringr
+Suggests:
+    parallel
