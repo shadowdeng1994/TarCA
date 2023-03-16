@@ -87,6 +87,8 @@ tmp.result <- Np_Estimator(
 > | O8 | 1 (5), 2 (3) | 11 | 18.3 |
 > | O9 | 1 (12), 2 (1), 3 (2) | 20 | 27.1 |
 
+This process is estimated to be completed in about 30 seconds.
+
 ### Detect LEU with exemplar dataset.
 - Load exemplar dataset.
 ```
@@ -126,6 +128,8 @@ tmp.result <- LEU_Estimator(
 > | TRUE | 1 (23), 2 (5), 4 (2) | 41 | 48.2 |
 - Additionally, you can visualize the LEU on the phylogeny with `tmp.result[["BiasFig"]]`.
 <img src="https://github.com/shadowdeng1994/TarCA/blob/main/inst/BiasPlot.png" width=100% height=100%>
+
+This process is estimated to be completed in about 30 seconds.
 
 ## Contributing
 ### Contributors
