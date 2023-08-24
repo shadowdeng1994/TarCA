@@ -6,6 +6,8 @@ The method, termed as targeting coalescent analysis (TCA), computes for all cell
   <img src="https://github.com/shadowdeng1994/TarCA/blob/main/inst/CoalescentTheory.png" width=65% height=65%>
 </p>
 
+__* The beta version of TarCA is availble in [TarCA.beta](https://github.com/shadowdeng1994/TarCA.beta).__
+
 ## System requirement
 * Dependent packages: dplyr, tidyr, ape, castor, ggplot2, ggtree, phytools, stringr
 * Require R (>= 3.5.0).
